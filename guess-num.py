@@ -1,6 +1,11 @@
 import random 
+start = input('Please enter a starting number: ')
+end = input('Please enter a ending number: ')
+start = int(start)
+end = int(end)
 
-r = random.randint (1, 100)
+r = random.randint (start, end)
+
 count = 0
 while True:
 	num = input('Please guess a number: ')
